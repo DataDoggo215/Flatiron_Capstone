@@ -37,7 +37,7 @@ This project took an iterative approach training different types of neural netwo
 
 Below are the models with the best hyperparemeters with the baseline being a standard convolution neural network. The model with the highest accuracy was the Ensemble Model where we averaged the predictions of our best 3 models.
 
-<img src="images\accuracy.png">
+<img src="images\accuracy_chart.png">
 
 Below is a diagram of how the models were ensembled that gave us the best results. We pass an image through our models to get 3 different predictions. We then averaged the first two predictions from the Densenet and Xception network. We then use this averaged results and then average that with prediction 3 from the InceptionResNetV2. The new averaged prediction is then use to predict if the image is normal or has the disease based on a threshold we set. What ensembling does to our modeling is that it can help capture certain things that each network architecture does well on. 
 

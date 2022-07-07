@@ -70,7 +70,7 @@ In many underserved areas, the nearest healthcare facilities are often hours awa
 
 
 ## For More Information
-Please review the full notebook for further details [Jupyter Notebook](./Main.ipynb), the code for the web app [Gradio](./Gradio.ipynb) or the [presentation](./Capstone_Prseentation.pdf).
+Please review the full notebook for further details [Jupyter Notebook](./Main.ipynb), the code for the web app [Gradio](./Gradio.ipynb) or the [presentation](./Prseentation.pdf).
 
 For any additional questions, please contact
 
@@ -83,7 +83,7 @@ Hoang Nguyen: hvnguyen90@gmail.com <br />
 ├── images(folder)
 ├── gitignore
 ├── Gradio.ipynb                            
-├── Capstone_Presentation.pdf 
+├── Presentation.pdf 
 ├── Main.ipynb                               
 └── README.md
 ```

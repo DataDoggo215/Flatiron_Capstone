@@ -26,7 +26,7 @@ One promising technique that has shown promising results in the literature is sm
 Using powerful smartphone imaging equipped with a portable lens partnered up with machine learning to detect DR can make health screening more accessible and get help to those who needs it the most.
 
 ## Data
-The data set comes a kaggle competition that can be found here: https://www.kaggle.com/competitions/diabetic-retinopathy-detection/overview
+The data set comes a kaggle competition that can be found here: https://www.kaggle.com/competitions/diabetic-retinopathy-detection/overview 
 
 The file contains 90 gigabites of images seperated into train set with labels and a test set without the labels. The labels are categorized as 0 (No DR) to 4 (Different severity of DR). Since this is not for the competition, the test set with no labels will be excluded. The training set will then be split to our own test, train, and validation set. Additionally, the problem will be set to a binary classification problem0 (No DR), 1 (DR present) for our purposes of a positive or negative detetction. The sample is very robust with a lot of noise and class imbalances were accounted for with weights.
 
@@ -49,7 +49,7 @@ What may be more important than accuracy is our recall score. Diagnosing a patie
 <img src="images\False_Positives.png">
 
 We were able to do that with our web demo.
-This can be found on the QR code at bottom and can be easily accessible with your phone. Our model takes in a image and gives you a probability of having the disease. Sample images are provided with the web demo or can take a photo and upload your own.
+This can be found on the QR code at bottom and can be easily accessible with your phone. Our model takes in a image and gives you a probability of having the disease. Sample images are provided with the web demo or can take a photo and upload your own. The web demo and code can also be found here: https://huggingface.co/spaces/DataDoggo/Visionary
 
 <img src="images\qr_code.png" width = 30%>
 
@@ -70,7 +70,7 @@ In many underserved areas, the nearest healthcare facilities are often hours awa
 
 
 ## For More Information
-Please review our full analysis in our [Jupyter Notebook](./Main.ipynb) or our [presentation]().
+Please review the full notebook for further details [Jupyter Notebook](./Main.ipynb), the code for the web app [Gradio](./Gradio.ipynb) or the [presentation](./Capstone_Prseentation.pdf).
 
 For any additional questions, please contact
 
@@ -80,9 +80,10 @@ Hoang Nguyen: hvnguyen90@gmail.com <br />
 ## Repository Structure
 
 ```
-├── README.md                           
-├── Main.ipynb   
-├── Presentation.pdf 
-├── notebooks                                 
-└── images(folder)
+├── images(folder)
+├── gitignore
+├── Gradio.ipynb                            
+├── Capstone_Presentation.pdf 
+├── Main.ipynb                               
+└── README.md
 ```

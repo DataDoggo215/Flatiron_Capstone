@@ -48,11 +48,13 @@ What may be more important than accuracy is our recall score. Diagnosing a patie
 
 <img src="images\False_Positives.png">
 
+We were able to do that with our web demo.
+This can be found on the QR code at bottom and can be easily accessible with your phone. Our model takes in a image and gives you a probability of having the disease. Sample images are provided with the web demo or can take a photo and upload your own.
+
+<img src="images\qr_code.png" width = 30%>
 
 ## Conclusion 
 In many underserved areas, the nearest healthcare facilities are often hours away. This often leads to patients not seeking care until symptoms are severe, but by then it might be too late.  But what if we can catch it earlier.  With accessible high quality imaging tools, we can train community health workers to use this technology and use machine learning model to give us a predictions. Using this prediction ensembled with patient’s medical history, we can get them taken care of sooner before its too late.
-
-<img src="images\qr_code.png" width = 30%>
 
 
 ## Next Steps
@@ -72,7 +74,7 @@ Please review our full analysis in our [Jupyter Notebook](./Main.ipynb) or our [
 
 For any additional questions, please contact
 
-<img src="images\Hoang.png" width=10%> Hoang Nguyen: hvnguyen90@gmail.com <br />
+Hoang Nguyen: hvnguyen90@gmail.com <br />
 
 
 ## Repository Structure
@@ -81,7 +83,6 @@ For any additional questions, please contact
 ├── README.md                           
 ├── Main.ipynb   
 ├── Presentation.pdf 
-├── notebooks  
-├── data                                
-└── images 
+├── notebooks                                 
+└── images(folder)
 ```

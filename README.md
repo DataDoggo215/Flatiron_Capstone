@@ -2,6 +2,7 @@
 
 **Author:** _Hoang Nguyen_
 
+Full project video presentation can be found at https://drive.google.com/file/d/1G-ox92HOPGuWcFxHaJoX4rixzEYIvfuF/view?usp=sharing
 
 <img src="images\phone_screening.jpg" width=80%>
 
@@ -84,6 +85,6 @@ Hoang Nguyen: hvnguyen90@gmail.com <br />
 ├── gitignore
 ├── Gradio.ipynb                            
 ├── Presentation.pdf 
-├── Main.ipynb                               
+├── Capstone_Main.ipynb                               
 └── README.md
 ```

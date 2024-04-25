@@ -24,7 +24,7 @@ One promising technique that has shown promising results in the literature is sm
 <img src="images\phone_exam.jpg">
 <img src="images\eye.jpg" width=50%>
 
-Using powerful smartphone imaging equipped with a portable lens partnered up with machine learning to detect DR can make health screening more accessible and get help to those who needs it the most.
+Using readily accessible smartphones equipped with a portable lens with machine learning to detect DR can make health screening more accessible and get help to those who needs it the most.
 
 ## Data
 The data set comes a kaggle competition that can be found here: https://www.kaggle.com/competitions/diabetic-retinopathy-detection/overview 
